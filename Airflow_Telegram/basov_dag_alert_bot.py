@@ -25,9 +25,9 @@ default_args = {
 
 schedule_interval = '*/15 * * * *'
 
-token = '8138277020:AAFA-pPVKcfV2Yti3VTieRselt_3lLdoozQ'
+token = token
 bot = telegram.Bot(token=token)
-chat_id = '-1002614297220'
+chat_id = chat_id
 
 
 def check_anomaly(df, metric, a = 6, n = 4):
